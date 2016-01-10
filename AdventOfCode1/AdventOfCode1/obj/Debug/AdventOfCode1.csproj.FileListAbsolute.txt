@@ -1,0 +1,8 @@
+c:\users\jakerblom\documents\visual studio 2015\Projects\AdventOfCode1\AdventOfCode1\bin\Debug\AdventOfCode1.exe.config
+c:\users\jakerblom\documents\visual studio 2015\Projects\AdventOfCode1\AdventOfCode1\bin\Debug\AdventOfCode1.exe
+c:\users\jakerblom\documents\visual studio 2015\Projects\AdventOfCode1\AdventOfCode1\bin\Debug\AdventOfCode1.pdb
+c:\users\jakerblom\documents\visual studio 2015\Projects\AdventOfCode1\AdventOfCode1\obj\Debug\AdventOfCode1.csprojResolveAssemblyReference.cache
+c:\users\jakerblom\documents\visual studio 2015\Projects\AdventOfCode1\AdventOfCode1\obj\Debug\AdventOfCode1.Properties.Resources.resources
+c:\users\jakerblom\documents\visual studio 2015\Projects\AdventOfCode1\AdventOfCode1\obj\Debug\AdventOfCode1.csproj.GenerateResource.Cache
+c:\users\jakerblom\documents\visual studio 2015\Projects\AdventOfCode1\AdventOfCode1\obj\Debug\AdventOfCode1.exe
+c:\users\jakerblom\documents\visual studio 2015\Projects\AdventOfCode1\AdventOfCode1\obj\Debug\AdventOfCode1.pdb

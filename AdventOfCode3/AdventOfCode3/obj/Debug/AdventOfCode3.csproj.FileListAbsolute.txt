@@ -4,3 +4,6 @@ C:\Users\JAkerblom\Documents\Visual Studio 2015\Projects\AdventOfCode3\AdventOfC
 C:\Users\JAkerblom\Documents\Visual Studio 2015\Projects\AdventOfCode3\AdventOfCode3\bin\Debug\AdventOfCode3.pdb
 C:\Users\JAkerblom\Documents\Visual Studio 2015\Projects\AdventOfCode3\AdventOfCode3\obj\Debug\AdventOfCode3.exe
 C:\Users\JAkerblom\Documents\Visual Studio 2015\Projects\AdventOfCode3\AdventOfCode3\obj\Debug\AdventOfCode3.pdb
+C:\Users\JAkerblom\Documents\Visual Studio 2015\Projects\AdventOfCode\AdventOfCode3\AdventOfCode3\bin\Debug\AdventOfCode3.exe.config
+C:\Users\JAkerblom\Documents\Visual Studio 2015\Projects\AdventOfCode\AdventOfCode3\AdventOfCode3\obj\Debug\AdventOfCode3.exe
+C:\Users\JAkerblom\Documents\Visual Studio 2015\Projects\AdventOfCode\AdventOfCode3\AdventOfCode3\obj\Debug\AdventOfCode3.pdb

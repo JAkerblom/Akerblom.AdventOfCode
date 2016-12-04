@@ -10,7 +10,7 @@ using FluentAssertions;
 namespace AdventOfCode1.Tests
 {
     [TestFixture]
-    public class When_instructions_are_read
+    public class When_instructions_are_read // Isbat.. It should be able to..
     {
         private List<string> _directions;
         private InstructionCalc _mapper;

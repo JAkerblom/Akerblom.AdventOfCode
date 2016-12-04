@@ -5,11 +5,11 @@ namespace AdventOfCode1
 {
     public class InstructionCalc
     {
-        private Direction _direction { get; set; }
-        private Tuple<int, int> _startPos;
-        private Tuple<int, int> _position;
-        private HashSet<Tuple<int, int>> _visiteds;
-        private Queue<Tuple<int, int>> _doubleVisiteds;
+        private Direction _direction { get; set; }      // Keeps track of the current direction to walk in 
+        private Tuple<int, int> _startPos;              
+        private Tuple<int, int> _position;              // Keeps track of the current position
+        private HashSet<Tuple<int, int>> _visiteds;     // Keeps track of the visited positions
+        private Queue<Tuple<int, int>> _doubleVisiteds; // Keeps track of the double visited positions
 
         public InstructionCalc(Tuple<int, int> startPos, Direction startDir)
         {
@@ -21,6 +21,14 @@ namespace AdventOfCode1
             _visiteds.Add(_startPos);
         }
 
+        /// <summary>
+        ///     For each instruction of a list of instructions (from input.txt file)
+        ///         Get the direction instruction and the number of block steps.
+        ///         Set the new direction before walking and then walk and register that new position.
+        ///         While you're at it, go and store all the coordinates you just walked past, as well
+        ///         as the coordinates that you may have passed already (Assignment 2). 
+        /// </summary>
+        /// <param name="instructions">Insert a set of instructions as "direction" and "number of block steps".</param>
         public void ExecuteInstructions(List<string> instructions)
         {
             foreach (var instr in instructions)
@@ -168,6 +176,7 @@ namespace AdventOfCode1
                     break;
             }
 
+            // Ensuring a loop around the compass..
             if (_direction < 0) _direction = Direction.West;
             if (_direction > Direction.West) _direction = Direction.North;
             
@@ -177,5 +186,9 @@ namespace AdventOfCode1
         public Direction CurrentDirection { get { return _direction; } }
     }
 
+    /// <summary>
+    ///     Using an enumeration for the possible directions.
+    ///     Will get values like North = 0, East = 1, and so on.
+    /// </summary>
     public enum Direction { North, East, South, West }
 }

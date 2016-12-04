@@ -1,6 +1,0 @@
-c:\users\jakerblom\documents\visual studio 2015\Projects\AdventOfCode2\AdventOfCode2\bin\Debug\AdventOfCode2.exe.config
-C:\Users\JAkerblom\Documents\Visual Studio 2015\Projects\AdventOfCode2\AdventOfCode2\bin\Debug\AdventOfCode2.exe
-C:\Users\JAkerblom\Documents\Visual Studio 2015\Projects\AdventOfCode2\AdventOfCode2\bin\Debug\AdventOfCode2.pdb
-C:\Users\JAkerblom\Documents\Visual Studio 2015\Projects\AdventOfCode2\AdventOfCode2\obj\Debug\AdventOfCode2.csprojResolveAssemblyReference.cache
-C:\Users\JAkerblom\Documents\Visual Studio 2015\Projects\AdventOfCode2\AdventOfCode2\obj\Debug\AdventOfCode2.exe
-C:\Users\JAkerblom\Documents\Visual Studio 2015\Projects\AdventOfCode2\AdventOfCode2\obj\Debug\AdventOfCode2.pdb

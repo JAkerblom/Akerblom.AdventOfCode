@@ -1,9 +1,0 @@
-c:\users\jakerblom\documents\visual studio 2015\Projects\AdventOfCode4\AdventOfCode4\bin\Debug\AdventOfCode4.exe.config
-c:\users\jakerblom\documents\visual studio 2015\Projects\AdventOfCode4\AdventOfCode4\bin\Debug\AdventOfCode4.exe
-c:\users\jakerblom\documents\visual studio 2015\Projects\AdventOfCode4\AdventOfCode4\bin\Debug\AdventOfCode4.pdb
-c:\users\jakerblom\documents\visual studio 2015\Projects\AdventOfCode4\AdventOfCode4\obj\Debug\AdventOfCode4.csprojResolveAssemblyReference.cache
-c:\users\jakerblom\documents\visual studio 2015\Projects\AdventOfCode4\AdventOfCode4\obj\Debug\AdventOfCode4.exe
-c:\users\jakerblom\documents\visual studio 2015\Projects\AdventOfCode4\AdventOfCode4\obj\Debug\AdventOfCode4.pdb
-C:\Users\JAkerblom\Documents\Visual Studio 2015\Projects\AdventOfCode\AdventOfCode4\AdventOfCode4\bin\Debug\AdventOfCode4.exe.config
-C:\Users\JAkerblom\Documents\Visual Studio 2015\Projects\AdventOfCode\AdventOfCode4\AdventOfCode4\obj\Debug\AdventOfCode4.exe
-C:\Users\JAkerblom\Documents\Visual Studio 2015\Projects\AdventOfCode\AdventOfCode4\AdventOfCode4\obj\Debug\AdventOfCode4.pdb

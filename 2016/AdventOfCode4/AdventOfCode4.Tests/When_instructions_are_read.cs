@@ -20,7 +20,8 @@ namespace AdventOfCode4.Tests
         [SetUp]
         public void SetUp()
         {
-            string pattern = @"([a-z\-]+)(\d+)\[([a-z]+)\]";
+            //string pattern = @"([a-z\-]+)(\d+)\[([a-z]+)\]";
+            string pattern = @"([a-z-]+)(\d+)\[(.+)\]";
             String stringRepo = Properties.Resources.input;
             _roomCodes = new List<string>();
             _engine = new RoomCalc(pattern);
@@ -28,8 +29,6 @@ namespace AdventOfCode4.Tests
             using (StringReader sr = new StringReader(stringRepo))
                 while ((line = sr.ReadLine()) != null)
                     _roomCodes.Add(line);
-
-            
         }
 
         [Test]
@@ -41,11 +40,19 @@ namespace AdventOfCode4.Tests
         }
 
         [Test]
-        [TestCase(449)]
+        [TestCase(245102)]
         public void Isbat_evaluate_multiple_room_names(int result)
         {
             _engine.ExecuteRoomNameParser(_roomCodes);
-            _engine.GetNumberOfRealRooms().Should().Be(result);
+            _engine.GetSumOfRealRooms().Should().Be(result);
+        }
+
+        [Test]
+        [TestCase("pole", 1)]
+        public void Isbat_find_index_of_matching_string(string match, string result)
+        {
+            _engine.ExecuteRoomNameParser(_roomCodes);
+            _engine.GetIndexOfMatchingString(match).Should().Be(result);
         }
 
         static object[] RoomNames_Ass1 =

@@ -48,8 +48,8 @@ namespace AdventOfCode4.Tests
         }
 
         [Test]
-        [TestCase("pole", 1)]
-        public void Isbat_find_index_of_matching_string(string match, string result)
+        [TestCase("pole", 324)]
+        public void Isbat_find_index_of_matching_string(string match, int result)
         {
             _engine.ExecuteRoomNameParser(_roomCodes);
             _engine.GetIndexOfMatchingString(match).Should().Be(result);

@@ -43,9 +43,10 @@ namespace AdventOfCode4.Tests
             return _rooms.Where(x => x.IsReal).Sum(x => x.Digit);
         }
 
-        public void GetIndexOfMatchingString(string match)
+        public int GetIndexOfMatchingString(string match)
         {
             //return _rooms.First().Contains(match).ToString();
+            return _rooms.FirstOrDefault(x => x.DecryptedName.Contains(match)).Digit;
         }
     }
 }

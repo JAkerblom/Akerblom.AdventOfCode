@@ -27,7 +27,41 @@ namespace AdventOfCode4
             if (GetTopXChars(5) == Check) IsReal = true;
 
             int shift = Digit % 26;
-            char[] charArr = ConcatenatedCharsOfNames();
+            //char[] charArr = ConcatenatedCharsOfNames();
+            //int size = NameGroup.Count();
+            //string[] decryptedGroup = new string[size] { };
+            List<string> decryptedWords = new List<string>();
+            for (int i = 0; i < NameGroup.Count(); i++)
+            {
+                char[] wordChArr = NameGroup[i].ToCharArray();
+                string newStr = "";
+                foreach (char ch in wordChArr)
+                {
+                    var newChar = ch;
+                    //var newChar = (char) ch >> shift;
+                    for (int j = 1; j <= shift; j++)
+                    {
+                        newChar++;
+                    }
+                    int rest = (int)(newChar - 'z');
+                    if (rest > 0)
+                    {
+                        //newChar = (char)'a' >> rest;
+                        newChar = 'a';
+                        for (int k = 1; k < rest; k++)
+                        {
+                            newChar++; 
+                        }
+                    }
+                    newStr += newChar;
+                }
+                decryptedWords.Add(newStr);
+            }
+
+            foreach (var word in decryptedWords)
+                DecryptedName += (" " + word);
+            
+            DecryptedName = DecryptedName.TrimStart(' ');
             
         }
 
